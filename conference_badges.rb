@@ -20,4 +20,5 @@ def assign_rooms(array)
   array.each_with_index do |name, room_num|
     room_welcome.push(room_msg(name, room_num))
   end
+  return room_welcome
 end

@@ -22,3 +22,9 @@ def assign_rooms(array)
   end
   return room_welcome
 end
+
+def printer(badge, room)
+
+
+
+end

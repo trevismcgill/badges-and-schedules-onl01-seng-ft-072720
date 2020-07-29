@@ -23,7 +23,7 @@ def assign_rooms(array)
   return room_welcome
 end
 
-def printer(array1, array2)
+def printer(array1, array2, array3)
 puts array1
 puts array2
 end

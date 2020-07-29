@@ -17,7 +17,7 @@ end
 
 def assign_rooms(array)
   room_welcome = []
-  array.each_with_index do |name, room_num|
+  array.each_with_index do |name, room_num+1|
     room_welcome.push(room_msg(name, room_num))
   end
   return room_welcome
